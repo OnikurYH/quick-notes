@@ -1,5 +1,6 @@
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import path from 'path';
 
 const config: webpack.Configuration = {
@@ -23,13 +24,21 @@ const config: webpack.Configuration = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                    },
+                    'css-loader',
+                ],
             },
         ],
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '..', 'src', 'index.html'),
+        }),
+        new MiniCssExtractPlugin({
+            filename: '[name].css',
         }),
     ],
 };
