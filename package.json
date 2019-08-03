@@ -2,7 +2,7 @@
   "name": "quick-notes",
   "version": "1.0.0",
   "description": "Quick HTML notes",
-  "main": "index.js",
+  "main": "public/bundle.js",
   "author": "OnikurYH <onikuryh@gmail.com>",
   "license": "MIT",
   "private": true,
