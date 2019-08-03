@@ -82,4 +82,5 @@ body {
     resize: none;
     outline: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
 }
