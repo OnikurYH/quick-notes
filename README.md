@@ -16,6 +16,10 @@
 
 - Run `yarn start`
 
+## Online use
+
+Go to https://onikuryh.github.io/quick-notes/
+
 ## License
 
 Licensed under MIT
