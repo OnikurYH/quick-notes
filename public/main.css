@@ -84,6 +84,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: auto;
 }
+
 .notes--document .notes__nav {
     color: #fff;
     background-color: #0060df;
@@ -100,3 +101,4 @@ body {
 .notes--document .nav__save:active {
     background-color: #215aa5;
 }
+
