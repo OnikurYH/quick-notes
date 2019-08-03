@@ -10,8 +10,8 @@ const config: webpack.Configuration = {
         extensions: [ '.tsx', '.ts', '.js' ]
     },
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, '..', 'public'),
+        filename: 'main.js',
+        path: path.resolve(__dirname, '..', 'docs'),
     },
     module: {
         rules: [
@@ -35,7 +35,6 @@ const config: webpack.Configuration = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: path.resolve(__dirname, '..', 'index.html'),
             template: path.resolve(__dirname, '..', 'src', 'index.html'),
         }),
         new MiniCssExtractPlugin({
