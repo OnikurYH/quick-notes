@@ -2,6 +2,10 @@
 
 > A simple notes website, support large contents with IndexedDB
 
+## Online use
+
+Go to https://onikuryh.github.io/quick-notes/
+
 ## Development
 
 - Use `yarn install` or `npm install` to install node_modules
@@ -15,10 +19,6 @@
 ## Start the website
 
 - Run `yarn start`
-
-## Online use
-
-Go to https://onikuryh.github.io/quick-notes/
 
 ## License
 
