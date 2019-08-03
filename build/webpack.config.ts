@@ -35,6 +35,7 @@ const config: webpack.Configuration = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            filename: path.resolve(__dirname, '..', 'index.html'),
             template: path.resolve(__dirname, '..', 'src', 'index.html'),
         }),
         new MiniCssExtractPlugin({

@@ -31,7 +31,7 @@
   "scripts": {
     "build": "cross-env TS_NODE_PROJECT=\"build/tsconfig-for-webpack-config.json\" NODE_ENV=\"production\" webpack --config build/webpack.config.ts",
     "dev": "cross-env TS_NODE_PROJECT=\"build/tsconfig-for-webpack-config.json\" NODE_ENV=\"production\" webpack-dev-server --config build/webpack.config.ts",
-    "start": "http-server ./public"
+    "start": "http-server ."
   },
   "dependencies": {
     "core-js": "^3.1.4",
